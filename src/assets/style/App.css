@@ -1,0 +1,46 @@
+#root {
+  max-width: 1280px;
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+}
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.contenedor {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: black;
+  background-image: url("https://www.shutterstock.com/image-vector/seamless-pattern-collage-newspaper-magazine-260nw-2171308273.jpg");
+}
+.form {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #fafafa;
+  width: 400px;
+  height: 400px;
+  border-radius: 15px;
+  box-shadow: -1px -2px 19px 5px rgba(166, 151, 151, 0.48);
+  -webkit-box-shadow: -1px -2px 19px 5px rgba(166, 151, 151, 0.48);
+  -moz-box-shadow: -1px -2px 19px 5px rgba(166, 151, 151, 0.48);
+}
+.txt {
+  color: rgb(3, 3, 3);
+  margin: 10px auto 50px;
+}
+.input {
+  border-radius: 15px;
+  padding: 5px;
+  margin: 5px 10px 5px 10px;
+}
+
+.btn {
+  margin-top: 15px;
+}
